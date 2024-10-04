@@ -10,6 +10,7 @@ public class Persona extends Thread{
         this.moneta = moneta;
     }
 
+    // lancio il run 
     @Override
     public void run() {
         for (int i = 0 ; i < moneta; i++){
